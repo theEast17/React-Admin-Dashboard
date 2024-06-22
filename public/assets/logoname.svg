@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg version="1.1" viewBox="0 0 1414 2000" width="1280" height="1280" xmlns="http://www.w3.org/2000/svg">
+<path transform="translate(0)" d="m0 0h1414v2e3h-1414z" fill="#FDFDFD"/>
+<path transform="translate(940,929)" d="m0 0h22l15 4 11 6 10 9 7 12 3 12v16l-3 12-5 9-9 10-11 7-16 5-16 1-15-2-12-4-11-7-9-10-5-10-3-14v-9l3-14 6-12 5-6 11-8 12-5z" fill="#F37F08"/>
+<path transform="translate(1026,930)" d="m0 0h73l12 3 9 6 5 6 3 7v15l-4 9-4 5-9 5-8 3 13 19 12 17 5 3v2h-31v-2h2l-4-7-14-20-8-11v-2h-29l1 39 3 1v2h-27v-2l2-1v-94l-2-1z" fill="#F37F08"/>
+<path transform="translate(712,929)" d="m0 0h24l16 4 13 5h5l1 2-10 19h-3l-1-4-12-6-15-3h-14l-14 3-6 4-2 4v6l3 3 8 2 30 1 16 2 12 5 7 7 3 7 1 5v7l-3 10-8 9-9 5-12 4-17 2-21-1-17-4-11-5h-5l2-6 9-18 3 1 1 6 8 5 16 4h21l13-3 6-4 2-4-1-7-3-3-9-3-36-2-14-3-10-6-5-8-1-5v-9l3-9 9-10 10-5 10-3z" fill="#F37F08"/>
+<path transform="translate(445,929)" d="m0 0h24l17 4 12 5h5l1 3-9 18h-3l-3-5-8-4-11-3-7-1h-14l-11 2-8 5-2 2v9l5 3 5 1 29 1 17 2 11 4 7 6 4 7 1 4v13l-4 9-5 6-10 6-12 4-18 2-20-1-14-3-12-5-7-1 1-5 10-19 2 1 2 6 5 4 12 4 6 1h22l12-3 6-4 2-3v-8l-5-4-7-2-37-2-14-3-8-5-5-6-2-5v-14l4-9 4-5 11-7 13-4z" fill="#2EA6E2"/>
+<path transform="translate(1241,927)" d="m0 0h2v23h-2l-1-2-69-1v24l47-1v-3h2v23h-2v-2l-47-1v27l71-1 1-3 2 1v22h-3v-2l-94-1v-2l2-1 1-94-3-1v-2l92-1z" fill="#F37F08"/>
+<path transform="translate(267,927)" d="m0 0h2v23l-3-1v-2h-70l1 23h44l3-3h2v23l-4-2-46-1v27l69-1 3-3h2v23l-4-2-93-1v-2h3v-93l-3-3v-2l92-1z" fill="#2EA6E2"/>
+<path transform="translate(322,930)" d="m0 0h29l1 2-2 1 1 6 17 36 13 28 10 22 4 3v2h-28v-2l2-1-3-9-6-12v-2h-48l-1 5-7 15 1 6h-25v-2l5-5 18-41 18-40 2-5v-4l-2-2z" fill="#2EA6E2"/>
+<path transform="translate(946,945)" d="m0 0h10l12 3 10 6 6 8 4 10v16l-4 11-8 9-10 5-8 2h-15l-10-3-10-6-6-8-3-7-1-6v-10l4-13 9-10 10-5z" fill="#FDFDFD"/>
+<path transform="translate(517,927)" d="m0 0h2l1 2h92l1-2h3v22l-3 1-1-2-36-1 1 80 3 1v2h-28v-2l3-1 1-80-36 1-1 2h-2z" fill="#2EA6E2"/>
+<path transform="translate(783,927)" d="m0 0 4 2h91l4-2v23h-2l-1-2-36-1v78l1 2 3 1v2h-28v-2l3-2 1-79h-37l-1 3h-2z" fill="#F37F08"/>
+<path transform="translate(1050,947)" d="m0 0h48l8 4 3 7-2 7-6 5-3 1h-48z" fill="#FDFDFD"/>
+<path transform="translate(335,953)" d="m0 0 3 4 13 29v2h-31l1-5 13-29z" fill="#FDFDFD"/>
+<path transform="translate(626,981)" d="m0 0h33v14h-34v-13z" fill="#2EA6E2"/>
+</svg>
