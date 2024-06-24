@@ -108,35 +108,16 @@ export const category=[
         percentage:80
     },
     {
-        name:'laptop',
+        name:'Television',
         percentage:40
     },
     {
-        name:'mobile',
+        name:'mouse',
         percentage:30
     },
     {
-        name:'earbuds',
+        name:'keyboard',
         percentage:20
     },
-    {
-        name:'Cameras',
-        percentage:80
-    },
-    {
-        name:'laptop',
-        percentage:40
-    },
-    {
-        name:'mobile',
-        percentage:30
-    },
-    {
-        name:'earbuds',
-        percentage:20
-    },
-    {
-        name:'Cameras',
-        percentage:80
-    },
+   
 ]
