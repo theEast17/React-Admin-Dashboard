@@ -1,3 +1,83 @@
+@import url("https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&display=swap");
+
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
+
+@layer base {
+  * {
+    @apply box-border list-none p-0 m-0 scroll-smooth;
+  }
+
+  body {
+    @apply min-h-screen font-inter;
+  }
+}
+
+@layer utilities {
+  .heading {
+    @apply tracking-tighter font-light uppercase;
+  }
+  .flex-center {
+    @apply flex justify-center items-center;
+  }
+  .flex-between {
+    @apply flex justify-between items-center;
+  }
+  .flex-start {
+    @apply flex justify-start items-center;
+  }
+  .input{
+    @apply p-4 border-0 w-full
+  }
+  .centerElement{
+    @apply absolute top-1/2 left-1/2 translate-x-[-50%] translate-y-[-50%]
+  }
+
+
+}
+
+.custom-scrollbar::-webkit-scrollbar {
+  width: 12px;
+}
+.custom-scrollbar::-webkit-scrollbar-track {
+  background: #dbd9d9;
+  border-radius: 15px;
+}
+.custom-scrollbar::-webkit-scrollbar-thumb {
+  background-color: #abaaaa;
+  border-radius: 15px;
+}
+.custom-scrollbar::-webkit-scrollbar-thumb:hover {
+  background: #a3a2a2;
+}
+
+.progress-circle {
+  position: relative;
+  /* background-color: aqua; */
+  border-radius: 50%;
+  width: 4rem;
+  height: 4rem;
+  border-width: 1px;
+  background: conic-gradient(
+    var(--progress-color) calc(var(--progress-value) * 1%), 
+    transparent 0%
+  );
+}
+
+.progress-circle::before {
+  content: '';
+  position: absolute;
+  inset: 0.5rem;
+  background: white;
+  border-radius: 50%;
+}
+
+.progress::before{
+  content: '';
+  position: absolute;
+  height: 100%;
+  background-color: rgb(9, 206, 9);
+  border-radius: 6px;
+  width: var(--progress-width);
+}
