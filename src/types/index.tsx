@@ -20,3 +20,11 @@ export interface DoughnutChartProps {
   cutout?: number | string;
   offset?: number[];
 }
+
+export interface TableDataType {
+  id: string;
+  quantity: number;
+  discount: number;
+  amount: number;
+  status: string;
+}

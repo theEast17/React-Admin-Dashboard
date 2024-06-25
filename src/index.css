@@ -41,16 +41,17 @@
   width: 10px;
 }
 .custom-scrollbar::-webkit-scrollbar-track {
-  background: #dbd9d9;
+  background: #bad7f4;
   border-radius: 15px;
 }
 .custom-scrollbar::-webkit-scrollbar-thumb {
-  background-color: #abaaaa;
+  background-color: #6da3d8;
   border-radius: 15px;
+  cursor: pointer;
 }
-.custom-scrollbar::-webkit-scrollbar-thumb:hover {
-  background: #a3a2a2;
-}
+/* .custom-scrollbar::-webkit-scrollbar-thumb:hover {
+  background: #456b91;
+} */
 
 .progress-circle {
   position: relative;

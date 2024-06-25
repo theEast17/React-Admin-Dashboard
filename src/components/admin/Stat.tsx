@@ -4,13 +4,13 @@ import { statistics } from "../../utils";
 const Stat = () => {
   return (
     <section className="mb-5">
-      <div className="grid grid-cols-4 gap-4">
+      <div className="flex justify-between w-full gap-4 max-md:flex-col">
         {statistics.map((stat) => {
           const percent = stat.percentage.split("").join("");
           return (
             <article
               key={stat.title}
-              className="flex justify-around items-center border p-3 rounded-lg shadow-md bg-white"
+              className="w-1/4 max-md:w-full flex justify-around items-center border p-3 rounded-lg shadow-md bg-white"
             >
               <div className="flex flex-col gap-2">
                 <p className="text-sm text-zinc-400">{stat.title}</p>

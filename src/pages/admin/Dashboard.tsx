@@ -6,7 +6,7 @@ import Transaction from "../../components/admin/Transaction";
 
 const Dashboard = () => {
   return (
-    <section className="w-full py-3 pr-5 overflow-y-auto custom-scrollbar">
+    <section className="w-full max-md:p-4 py-3 pr-5 max-md:overflow-x-hidden overflow-y-auto custom-scrollbar">
       <SearchBar/>
       <Stat/>
       <Graph/>

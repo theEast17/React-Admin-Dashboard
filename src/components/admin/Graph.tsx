@@ -3,8 +3,8 @@ import { BarChart } from "../../charts/BarChart";
 
 const Graph = () => {
   return (
-    <section className="mb-5 min-h-[50%] grid [grid-template-columns:3fr_1fr] gap-6">
-      <div className="bg-white rounded-md shadow-sm p-4">
+    <section className="mb-5 grid [grid-template-columns:3fr_1fr] max-md:[grid-template-columns:1fr] gap-6">
+      <div className="bg-white rounded-md shadow-sm p-4 max-md:overflow-x-auto">
         <h2 className="pt-3 pb-4 uppercase text-center -tracking-tighter">
           Revenue and transaction
         </h2>
@@ -17,7 +17,7 @@ const Graph = () => {
           bgColor_2="rgb(100,50,200)"
         />
       </div>
-      <div className="realtive pt-4 flex flex-col justify-center items-center gap-4 bg-white rounded-md shadow-sm">
+      <div className="max-md:overflow-x-auto relative pt-4 flex flex-col justify-center items-center gap-4 bg-white rounded-md shadow-sm">
         <h3 className="uppercase text-center -tracking-tighter">inventory</h3>
         <div className="overflow-y-auto max-h-44 custom-scrollbar">
           {category.map((item) => {
