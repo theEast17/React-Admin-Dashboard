@@ -4,6 +4,7 @@ import Loader from "./components/Loader";
 import DashboardLayout from "./layouts/DashboardLayout";
 import Dashboard from "./pages/admin/Dashboard";
 
+
 // client routes
 const Home = lazy(() => import("./pages/client/Home"));
 const Search = lazy(() => import("./pages/client/Search"));
@@ -13,6 +14,8 @@ const Cart = lazy(() => import("./pages/client/Cart"));
 const Product = lazy(() => import("./pages/admin/Product"));
 const Transaction = lazy(() => import("./pages/admin/Transaction"));
 const Customer = lazy(() => import("./pages/admin/Customer"));
+const NewProduct = lazy(() => import("./components/admin/NewProduct"));
+const EditProduct = lazy(() => import("./components/admin/EditProduct"));
 
 const router = createBrowserRouter([
   {
@@ -62,7 +65,31 @@ const router = createBrowserRouter([
         ),
       },
       {
+        path: "product/new",
+        element: (
+          <Suspense fallback={<Loader />}>
+            <NewProduct />
+          </Suspense>
+        ),
+      },
+      {
+        path: "product/:id",
+        element: (
+          <Suspense fallback={<Loader />}>
+            <EditProduct />
+          </Suspense>
+        ),
+      },
+      {
         path: "transaction",
+        element: (
+          <Suspense fallback={<Loader />}>
+            <Transaction />
+          </Suspense>
+        ),
+      },
+      {
+        path: "transaction/:id",
         element: (
           <Suspense fallback={<Loader />}>
             <Transaction />

@@ -4,6 +4,7 @@ import logoname from "../../assets/logoname.svg";
 import { appsNavigation, chartNavigation, dashboardNavigation } from "../../utils";
 
 
+
 const Sidebar = () => {
   return (
     <aside className="w-full max-md:hidden bg-white z-10 p-4 overflow-y-auto custom-scrollbar">

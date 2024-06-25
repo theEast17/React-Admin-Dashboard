@@ -1,6 +1,8 @@
+import TransactionTable from "../../Table/TransactionTable"
+
 const Transaction = () => {
   return (
-    <div>Transaction</div>
+    <TransactionTable/>
   )
 }
 

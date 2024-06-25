@@ -1,7 +1,7 @@
-
+import { ImSpinner9 } from "react-icons/im";
 const Loader = () => {
   return (
-    <h1 className="text-yellow-400">Loading...</h1>
+    <span className="text-center text-3xl flex items-center justify-center"><ImSpinner9 className="animate-spin text-red"/></span>
   )
 }
 

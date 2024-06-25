@@ -1,11 +1,11 @@
 import { BiMaleFemale } from "react-icons/bi";
 import { DoughnutChart } from "../../charts/DoughnutChart";
-import Table from "./Table";
+import Table from "../../Table/Table";
 import data from '../../data.json'
 
 const Transaction = () => {
   return (
-    <section className="mb-5 grid [grid-template-columns:1fr_3fr] max-md:[grid-template-columns:1fr] gap-6">
+    <section className="mb-5 grid [grid-template-columns:1fr_3fr] max-md:[grid-template-columns:1fr] gap-6 ">
       <div className="bg-white rounded-md relative shadow-sm pb-4 max-md:overflow-x-auto">
         <h2 className="pt-3 pb-4 uppercase text-center -tracking-tighter">
           Gender ration
@@ -24,11 +24,14 @@ const Transaction = () => {
         </div>
       </div>
 
-      <div className="bg-white rounded-md shadow-sm max-md:overflow-x-auto">
+      <div className="bg-[rgb(247,247,247)]  rounded-md shadow-sm max-md:overflow-x-auto">
         <Table data={data.transaction} />
       </div>
     </section>
   );
 };
+
+//  
+
 
 export default Transaction;

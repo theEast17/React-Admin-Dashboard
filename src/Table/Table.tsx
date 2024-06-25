@@ -1,6 +1,6 @@
 import { Column } from "react-table";
-import { TableDataType } from "../../types";
-import ReactTableHOC from "./ReactTableHOC";
+import { TableDataType } from "../types";
+import ReactTableHOC from "../components/admin/ReactTableHOC";
 
 const columns: Column<TableDataType>[] = [
   {

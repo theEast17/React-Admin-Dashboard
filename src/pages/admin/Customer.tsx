@@ -1,8 +1,9 @@
+import CustomerTable from "../../Table/CustomerTable"
 
 
 const Customer = () => {
   return (
-    <div>Customer</div>
+   <CustomerTable/>
   )
 }
 

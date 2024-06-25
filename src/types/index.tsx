@@ -1,3 +1,5 @@
+import { ReactElement } from "react";
+
 export interface BarChartProps {
   horizontal?: boolean;
   data_1: number[];
@@ -27,4 +29,31 @@ export interface TableDataType {
   discount: number;
   amount: number;
   status: string;
+}
+
+export interface ProductTableDataType {
+  photo: ReactElement;
+  name: string;
+  price: number;
+  stock: number;
+  action: ReactElement;
+}
+
+
+export interface CustomerTableDataType{
+  avatar:ReactElement;
+  name:string;
+  gender:string;
+  email:string;
+  role:string;
+  action:ReactElement;
+}
+
+export interface TransactionTableDataType{
+  user:string;
+  amount:number;
+  discount:number;
+  quantity:number;
+  status:ReactElement;
+  action:ReactElement;
 }
