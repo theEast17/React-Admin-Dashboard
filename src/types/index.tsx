@@ -39,21 +39,45 @@ export interface ProductTableDataType {
   action: ReactElement;
 }
 
-
-export interface CustomerTableDataType{
-  avatar:ReactElement;
-  name:string;
-  gender:string;
-  email:string;
-  role:string;
-  action:ReactElement;
+export interface CustomerTableDataType {
+  avatar: ReactElement;
+  name: string;
+  gender: string;
+  email: string;
+  role: string;
+  action: ReactElement;
 }
 
-export interface TransactionTableDataType{
-  user:string;
-  amount:number;
-  discount:number;
-  quantity:number;
-  status:ReactElement;
-  action:ReactElement;
+export interface TransactionTableDataType {
+  user: string;
+  amount: number;
+  discount: number;
+  quantity: number;
+  status: ReactElement;
+  action: ReactElement;
 }
+
+export type OrderItemType = {
+  name: string;
+  _id: string;
+  photo: string;
+  price: number;
+  quantity: number;
+};
+
+export type OrderType = {
+  _id: string;
+  name: string;
+  city: string;
+  state: string;
+  country: string;
+  address: string;
+  pinCode: number;
+  status: "Processing" | "shipped" | "Delivered";
+  subTotal: number;
+  discount: number;
+  shippingCharges: number;
+  tax: number;
+  total: number;
+  orderItems: OrderItemType[];
+};
