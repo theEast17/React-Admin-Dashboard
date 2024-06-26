@@ -5,16 +5,16 @@ import { DoughnutChartProps } from '../types';
 
 ChartJS.register(ArcElement, Tooltip, Legend);
 
-export function DoughnutChart({data,title,bgColor,border_color,labels=['Boys','Girls'],width = 100, height = 100,cutout=80}:DoughnutChartProps) {
+export function DoughnutChart({data,bgColor,border_color,labels=['Boys','Girls'],cutout=80,offset}:DoughnutChartProps) {
 
     const doughnutData: ChartData<"doughnut",number[],string>={
         labels,
         datasets:[
             {
-                label:title,
                 data:data,
                 backgroundColor:bgColor,
-                borderColor:border_color
+                borderColor:border_color,
+                offset
             }
         ], 
     }
@@ -29,5 +29,5 @@ export function DoughnutChart({data,title,bgColor,border_color,labels=['Boys','G
         cutout
     };
 
-  return <Doughnut data={doughnutData} options={options} width={width} height={height} />;
+  return <Doughnut data={doughnutData} options={options}/>;
 }

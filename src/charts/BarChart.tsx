@@ -38,6 +38,7 @@ export function BarChart({
     indexAxis: horizontal ? "y" : "x",
     plugins: {
       legend: {
+        display:false,
         position: "top" as const,
       },
       title: {

@@ -6,6 +6,8 @@ import Dashboard from "./pages/admin/Dashboard";
 
 
 
+
+
 // client routes
 const Home = lazy(() => import("./pages/client/Home"));
 const Search = lazy(() => import("./pages/client/Search"));
@@ -18,6 +20,9 @@ const Customer = lazy(() => import("./pages/admin/Customer"));
 const NewProduct = lazy(() => import("./components/admin/NewProduct"));
 const EditProduct = lazy(() => import("./components/admin/EditProduct"));
 const ManageTransaction = lazy(() => import("./components/admin/ManageTransaction"));
+const Bar = lazy(() => import("./pages/admin/Bar"));
+const Pie = lazy(() => import("./pages/admin/Pie"));
+const Line = lazy(() => import("./pages/admin/Line"));
 
 const router = createBrowserRouter([
   {
@@ -105,6 +110,46 @@ const router = createBrowserRouter([
             <Customer />
           </Suspense>
         ),
+      },
+      {
+        path:'chart/bar',
+        element:(
+          <Suspense fallback={<Loader />}>
+          <Bar />
+        </Suspense>
+        )
+      },
+      {
+        path:'chart/pie',
+        element:(
+          <Suspense fallback={<Loader />}>
+          <Pie />
+        </Suspense>
+        )
+      },
+      {
+        path:'chart/line',
+        element:(
+          <Suspense fallback={<Loader />}>
+          <Line />
+        </Suspense>
+        )
+      },
+      {
+        path:'app/toss',
+        element:(
+          <Suspense fallback={<Loader />}>
+          <Line />
+        </Suspense>
+        )
+      },
+      {
+        path:'app/coupan',
+        element:(
+          <Suspense fallback={<Loader />}>
+          <Line />
+        </Suspense>
+        )
       },
     ],
   },

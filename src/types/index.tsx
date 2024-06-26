@@ -11,15 +11,27 @@ export interface BarChartProps {
   labels?: string[];
 }
 
+export interface LineChartProps {
+  data: number[];
+  label: string;
+  bgColor: string;
+  borderColor: string;
+  labels?: string[];
+}
+
 export interface DoughnutChartProps {
   data: number[];
-  title: string;
   bgColor: string[];
   border_color: string[];
   labels?: string[];
-  width?: number;
-  height?: number;
   cutout?: number | string;
+  offset?: number[];
+}
+
+export interface PieChartProps {
+  data: number[];
+  bgColor: string[];
+  labels?: string[];
   offset?: number[];
 }
 

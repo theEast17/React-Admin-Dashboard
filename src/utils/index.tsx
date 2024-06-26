@@ -1,7 +1,7 @@
 import { RiCoupon3Fill, RiDashboardFill, RiShoppingBag3Fill } from "react-icons/ri";
 import { AiFillFileText } from "react-icons/ai";
 import { IoIosPeople } from "react-icons/io";
-import { FaChartBar, FaChartLine, FaChartPie, FaGamepad, FaStopwatch } from "react-icons/fa";
+import { FaChartBar, FaChartLine, FaChartPie, FaGamepad } from "react-icons/fa";
 
 
 export const dashboardNavigation = [
@@ -46,11 +46,6 @@ export const chartNavigation = [
 ];
 
 export const appsNavigation = [
-    {
-        title: "Stopwatch",
-        icon: <FaStopwatch />,
-        navigate: "/admin/app/stopwatch",
-    },
     {
         title: "Coupan",
         icon: <RiCoupon3Fill />,
