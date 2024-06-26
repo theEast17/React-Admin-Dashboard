@@ -15,9 +15,6 @@
 }
 
 @layer utilities {
-  .heading {
-    @apply tracking-tighter font-light uppercase;
-  }
   .flex-center {
     @apply flex justify-center items-center;
   }
@@ -26,9 +23,6 @@
   }
   .flex-start {
     @apply flex justify-start items-center;
-  }
-  .input{
-    @apply p-4 border-0 w-full
   }
   .centerElement{
     @apply absolute top-1/2 left-1/2 translate-x-[-50%] translate-y-[-50%]

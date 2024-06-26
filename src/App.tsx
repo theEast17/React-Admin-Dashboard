@@ -5,6 +5,7 @@ import DashboardLayout from "./layouts/DashboardLayout";
 import Dashboard from "./pages/admin/Dashboard";
 
 
+
 // client routes
 const Home = lazy(() => import("./pages/client/Home"));
 const Search = lazy(() => import("./pages/client/Search"));
@@ -16,6 +17,7 @@ const Transaction = lazy(() => import("./pages/admin/Transaction"));
 const Customer = lazy(() => import("./pages/admin/Customer"));
 const NewProduct = lazy(() => import("./components/admin/NewProduct"));
 const EditProduct = lazy(() => import("./components/admin/EditProduct"));
+const ManageTransaction = lazy(() => import("./components/admin/ManageTransaction"));
 
 const router = createBrowserRouter([
   {
@@ -92,7 +94,7 @@ const router = createBrowserRouter([
         path: "transaction/:id",
         element: (
           <Suspense fallback={<Loader />}>
-            <Transaction />
+            <ManageTransaction />
           </Suspense>
         ),
       },

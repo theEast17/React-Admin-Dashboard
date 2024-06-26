@@ -39,7 +39,7 @@ const arr: TransactionTableDataType[] = [
         discount:1000,
         quantity:2,
         status: <span className="text-red">Processing</span>,
-        action:<Link to={'/admin/transaction'} className="border px-1 py-1 bg-sky-400 rounded-md hover:bg-sky-300 transition-all">Manage</Link>
+        action:<Link to={'/admin/transaction/:id'} className="border px-1 py-1 bg-sky-400 rounded-md hover:bg-sky-300 transition-all">Manage</Link>
     },
     {
         user: "Bahubali",
@@ -47,7 +47,7 @@ const arr: TransactionTableDataType[] = [
         discount:4000,
         quantity:4,
         status:<span className="text-green">Shipped</span>,
-        action:<Link to={'/admin/transaction'} className="border px-1 py-1 bg-sky-400 rounded-md hover:bg-sky-300 transition-all">Manage</Link>
+        action:<Link to={'/admin/transaction/:id'} className="border px-1 py-1 bg-sky-400 rounded-md hover:bg-sky-300 transition-all">Manage</Link>
     }
     
     

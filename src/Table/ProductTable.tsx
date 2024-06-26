@@ -35,77 +35,77 @@ const arr: ProductTableDataType[] = [
         name: "Puma shoes",
         price:690,
         stock:3,
-        action:<Link to={'/admin/transaction'} className="border p-3 bg-sky-400 rounded-md hover:bg-sky-300 transition-all">Manage</Link>
+        action:<Link to={'/admin/product/:id'} className="border p-3 bg-sky-400 rounded-md hover:bg-sky-300 transition-all">Manage</Link>
     },
     {
         photo: <img src={shoes} alt="image" className="h-14 w-14" />,
         name: "nike shoes",
         price:800,
         stock:6,
-        action:<Link to={'/admin/transaction'} className="border p-3 bg-sky-400 rounded-md hover:bg-sky-300 transition-all">Manage</Link>
+        action:<Link to={'/admin/product/:id'} className="border p-3 bg-sky-400 rounded-md hover:bg-sky-300 transition-all">Manage</Link>
     },
     {
         photo: <img src={shoes} alt="image" className="h-14 w-14" />,
         name: "abc shoes",
         price:1000,
         stock:70,
-        action:<Link to={'/admin/transaction'} className="border p-3 bg-sky-400 rounded-md hover:bg-sky-300 transition-all">Manage</Link>
+        action:<Link to={'/admin/product/:id'} className="border p-3 bg-sky-400 rounded-md hover:bg-sky-300 transition-all">Manage</Link>
     },
     {
         photo: <img src={shoes} alt="image" className="h-14 w-14" />,
         name: "Puma shoes",
         price:690,
         stock:3,
-        action:<Link to={'/admin/transaction'} className="border p-3 bg-sky-400 rounded-md hover:bg-sky-300 transition-all">Manage</Link>
+        action:<Link to={'/admin/product/:id'} className="border p-3 bg-sky-400 rounded-md hover:bg-sky-300 transition-all">Manage</Link>
     },
     {
         photo: <img src={shoes} alt="image" className="h-14 w-14" />,
         name: "nike shoes",
         price:800,
         stock:6,
-        action:<Link to={'/admin/transaction'} className="border p-3 bg-sky-400 rounded-md hover:bg-sky-300 transition-all">Manage</Link>
+        action:<Link to={'/admin/product/:id'} className="border p-3 bg-sky-400 rounded-md hover:bg-sky-300 transition-all">Manage</Link>
     },
     {
         photo: <img src={shoes} alt="image" className="h-14 w-14" />,
         name: "abc shoes",
         price:1000,
         stock:70,
-        action:<Link to={'/admin/transaction'} className="border p-3 bg-sky-400 rounded-md hover:bg-sky-300 transition-all">Manage</Link>
+        action:<Link to={'/admin/product/:id'} className="border p-3 bg-sky-400 rounded-md hover:bg-sky-300 transition-all">Manage</Link>
     },
     {
         photo: <img src={shoes} alt="image" className="h-14 w-14" />,
         name: "Puma shoes",
         price:690,
         stock:3,
-        action:<Link to={'/admin/transaction'} className="border p-3 bg-sky-400 rounded-md hover:bg-sky-300 transition-all">Manage</Link>
+        action:<Link to={'/admin/product/:id'} className="border p-3 bg-sky-400 rounded-md hover:bg-sky-300 transition-all">Manage</Link>
     },
     {
         photo: <img src={shoes} alt="image" className="h-14 w-14" />,
         name: "nike shoes",
         price:800,
         stock:6,
-        action:<Link to={'/admin/transaction'} className="border p-3 bg-sky-400 rounded-md hover:bg-sky-300 transition-all">Manage</Link>
+        action:<Link to={'/admin/product/:id'} className="border p-3 bg-sky-400 rounded-md hover:bg-sky-300 transition-all">Manage</Link>
     },
     {
         photo: <img src={shoes} alt="image" className="h-14 w-14" />,
         name: "abc shoes",
         price:1000,
         stock:70,
-        action:<Link to={'/admin/transaction'} className="border p-3 bg-sky-400 rounded-md hover:bg-sky-300 transition-all">Manage</Link>
+        action:<Link to={'/admin/product/:id'} className="border p-3 bg-sky-400 rounded-md hover:bg-sky-300 transition-all">Manage</Link>
     },
     {
         photo: <img src={shoes} alt="image" className="h-14 w-14" />,
         name: "Puma shoes",
         price:690,
         stock:3,
-        action:<Link to={'/admin/transaction'} className="border p-3 bg-sky-400 rounded-md hover:bg-sky-300 transition-all">Manage</Link>
+        action:<Link to={'/admin/product/:id'} className="border p-3 bg-sky-400 rounded-md hover:bg-sky-300 transition-all">Manage</Link>
     },
     {
         photo: <img src={shoes} alt="image" className="h-14 w-14" />,
         name: "nike shoes",
         price:800,
         stock:6,
-        action:<Link to={'/admin/transaction'} className="border p-3 bg-sky-400 rounded-md hover:bg-sky-300 transition-all">Manage</Link>
+        action:<Link to={'/admin/product/:id'} className="border p-3 bg-sky-400 rounded-md hover:bg-sky-300 transition-all">Manage</Link>
     },
 ];
 
