@@ -7,7 +7,7 @@ import { appsNavigation, chartNavigation, dashboardNavigation } from "../../util
 
 const Sidebar = () => {
   return (
-    <aside className="w-full max-md:hidden bg-white z-10 p-4 overflow-y-auto custom-scrollbar">
+    <aside className="w-full bg-white z-10 p-4 overflow-y-auto custom-scrollbar">
       <div>
         <Link
           to={"/admin/dashboard"}

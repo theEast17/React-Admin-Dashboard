@@ -8,7 +8,7 @@ const Pie = () => {
       <div>
         <h1 className="text-2xl font-bold mb-3">Pie and Doughnut Charts</h1>
 
-        <div className="w-[40%] m-auto mb-5">
+        <div className="w-[40%] m-auto mb-5 max-md:w-[100%]">
           <PieChart
             labels={["Processing", "Shipped", "delivered"]}
             data={[12, 9, 3]}
@@ -19,13 +19,13 @@ const Pie = () => {
             ]}
             offset={[0, 0, 50]}
           />
-          <h1 className="text-2xl text-center mb-10 -tracking-tight">
+          <h1 className="text-2xl text-center mb-10 -tracking-tight ">
             Order Fulfillment Ratio
           </h1>
         </div>
 
         <div>
-          <div className="w-[40%] m-auto mb-5">
+          <div className="w-[40%] m-auto mb-5 max-md:w-[100%]">
             <DoughnutChart
               data={categories.categories.map((cat) => cat.value)}
               labels={categories.categories.map((cat) => cat.heading)}
@@ -50,7 +50,7 @@ const Pie = () => {
         </div>
 
         <div>
-          <div className="w-[40%] m-auto mb-5">
+          <div className="w-[40%] m-auto mb-5 max-md:w-[100%]">
             <DoughnutChart
               data={[100, 60]}
               labels={["In Stock", "Out of Stocks"]}
@@ -66,7 +66,7 @@ const Pie = () => {
         </div>
 
         <div>
-          <div className="w-[40%] m-auto mb-5">
+          <div className="w-[40%] m-auto mb-5 max-md:w-[100%]">
             <DoughnutChart
               data={[100, 60, 70, 200, 69]}
               labels={[
@@ -89,7 +89,7 @@ const Pie = () => {
           </div>
         </div>
 
-        <div className="w-[40%] m-auto mb-5">
+        <div className="w-[40%] m-auto mb-5 max-md:w-[100%]">
           <PieChart
             labels={["Teenager(Below 20)",  "Adult(20-40)","Older(Above 40)"]}
             data={[9, 19, 30]}

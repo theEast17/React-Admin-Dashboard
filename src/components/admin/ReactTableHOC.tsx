@@ -40,8 +40,8 @@ function ReactTableHOC<T extends object>(
     } = useTable(options, useSortBy, usePagination);
 
     return (
-      <div className="p-4 bg-[rgb(247,247,247)]">
-        <h2 className="pb-4 uppercase text-left -tracking-tighter">
+      <div className="p-4 bg-[rgb(247,247,247)] relative">
+        <h2 className="mb-4 uppercase text-left -tracking-tighter">
           {heading}
         </h2>
         <div className="overflow-x-auto">

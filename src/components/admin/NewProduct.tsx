@@ -42,11 +42,11 @@ const NewProduct = () => {
 
   const handleForm = (e: { preventDefault: () => void }) => {
     e.preventDefault();
-    const { username, price, stock, photo } = data;
+    alert(data)
   };
   return (
     <section className="flex justify-center items-center">
-      <form onSubmit={handleForm} className="border shadow-xl rounded-lg p-6">
+      <form onSubmit={handleForm} className="border shadow-xl max-md:w-[80%] rounded-lg p-6">
         <h1 className="text-center font-semibold -tracking-tight text-xl my-2">
           Create a Product
         </h1>

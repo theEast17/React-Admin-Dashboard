@@ -46,8 +46,8 @@ const Coupon = () => {
   }, [coupon]);
 
   return (
-    <div className="flex justify-center items-center min-h-screen bg-gray-100">
-      <main className="w-full max-w-md p-6 bg-white rounded-lg shadow-md">
+    <section className="w-full flex justify-center items-center min-h-screen bg-gray-100">
+      <div className="w-[85%] max-w-md p-6 bg-white rounded-lg shadow-md">
         <h1 className="text-2xl font-bold text-center mb-4">Coupon Generator</h1>
         <section>
           <form className="space-y-4" onSubmit={submitHandler}>
@@ -123,8 +123,8 @@ const Coupon = () => {
             </code>
           )}
         </section>
-      </main>
-    </div>
+      </div>
+    </section>
   );
 };
 

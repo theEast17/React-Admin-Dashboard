@@ -2,10 +2,10 @@ import { LineChart } from "../../charts/LineChart";
 
 const Line = () => {
   return (
-    <section className="w-full max-md:p-4 py-3 pr-5 max-md:overflow-x-hidden overflow-y-auto custom-scrollbar">
+    <section className="w-full max-md:p-4 py-3 pr-5 max-md:overflow-x-auto overflow-y-auto custom-scrollbar">
       <div>
         <h1 className="text-2xl font-bold mb-3">Line Charts</h1>
-        <div className="w-[80%] m-auto mb-5">
+        <div className="w-[80%] m-auto mb-5 max-md:w-[150%]">
           <LineChart
             data={[200, 340, 250, 239, 150, 300, 200, 200, 400, 205, 178, 140]}
             label="Users"
@@ -18,7 +18,7 @@ const Line = () => {
         </div>
       </div>
 
-      <div className="w-[80%] m-auto mb-5">
+      <div className="w-[80%] m-auto mb-5 max-md:w-[150%]">
         <LineChart
           data={[
             200, 340, 205, 290, 500, 30, 200, 200, 340, 405, 178,
@@ -34,7 +34,7 @@ const Line = () => {
       </div>
 
       
-        <div className="w-[80%] m-auto mb-5">
+        <div className="w-[80%] m-auto mb-5 max-md:w-[150%]">
           <LineChart
             data={[ 2000, 3040, 2050, 2390, 1500, 3000, 1200, 2200, 3400, 4205, 3178,
               1140,]}

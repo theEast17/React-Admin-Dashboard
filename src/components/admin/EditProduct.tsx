@@ -45,7 +45,7 @@ const EditProduct = () => {
     // const { username, price, stock, photo } = data;
   };
   return (
-    <section className="grid grid-cols-2 place-items-center w-full ">
+    <section className="grid grid-cols-2 max-md:grid-cols-1 place-items-center w-full ">
       <section className="border p-5 flex flex-col h-[80%] shadow-md">
         {data.stock > 0 ? (
  <span className="text-right text-green">{data.stock} Available</span>
@@ -59,8 +59,8 @@ const EditProduct = () => {
 
       </section>
 
-      <section className="flex justify-center items-center h-[80%] border shadow-md">
-      <form onSubmit={handleForm} className="rounded-lg p-6">
+      <section className="flex justify-center items-center h-[80%] max-md:h-[100%] max-md:w-[80%] max-md:mb-20 border shadow-md">
+      <form onSubmit={handleForm} className="rounded-lg p-6 max-md:w-[90%]">
         <h1 className="text-center font-semibold -tracking-tight text-xl my-2">
           Manage a Product
         </h1>

@@ -13,7 +13,6 @@ const Transaction = () => {
         <div className="relative flex justify-center items-center">
         <DoughnutChart
           data={[12, 19]}
-          title="ratio"
           bgColor={["rgba(255, 99, 132)", "rgba(54, 162, 235)"]}
           border_color={['rgba(255, 99, 132, 1)','rgba(54, 162, 235, 1)']}
         //   you can dynamically add labels 
@@ -24,7 +23,7 @@ const Transaction = () => {
         </div>
       </div>
 
-      <div className="bg-[rgb(247,247,247)]  rounded-md shadow-sm max-md:overflow-x-auto">
+      <div className="bg-white px-10 py-10 rounded-md shadow-sm max-md:overflow-x-auto">
         <Table data={data.transaction} />
       </div>
     </section>

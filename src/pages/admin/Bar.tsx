@@ -2,10 +2,10 @@ import { BarChart } from "../../charts/BarChart";
 
 const Bar = () => {
   return (
-    <section className="w-full max-md:p-4 py-3 pr-5 max-md:overflow-x-hidden overflow-y-auto custom-scrollbar">
-      <div className="mb-10 ">
+    <section className="w-full max-md:p-4 py-3 pr-5 max-md:overflow-x-auto overflow-y-auto custom-scrollbar">
+      <div className="mb-10">
         <h1 className="text-2xl font-bold mb-3">Bar Charts</h1>
-        <div className="w-[80%] m-auto">
+        <div className="w-[80%] m-auto max-md:w-[150%]">
         <BarChart
           data_1={[
             2000, 340, 2250, 8239, 5150, 1300, 2003, 3200, 400, 4205, 6178,
@@ -26,7 +26,7 @@ const Bar = () => {
       </div>
 
       <div className="mb-6">
-      <div className="w-[80%] m-auto">
+      <div className="w-[80%] m-auto max-md:w-[150%]">
         <BarChart
           data_1={[
             2000, 340, 2250, 8239, 5150, 1300, 2003, 3200, 400, 4205, 6178,
@@ -39,6 +39,9 @@ const Bar = () => {
           bgColor_1={`hsl(260,50%,30%)`}
           bgColor_2={``}
         />
+         <h1 className="capitalize text-2xl mt-3 -tracking-tight text-center">
+          Top Selling Customers in Month
+        </h1>
         </div>
       </div>
     </section>

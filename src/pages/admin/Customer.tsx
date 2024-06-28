@@ -3,7 +3,9 @@ import CustomerTable from "../../Table/CustomerTable"
 
 const Customer = () => {
   return (
-   <CustomerTable/>
+    <section className="bg-[rgb(247,247,247)]">
+      <CustomerTable/>
+    </section>
   )
 }
 

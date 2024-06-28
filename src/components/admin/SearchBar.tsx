@@ -3,7 +3,7 @@ import { FaRegBell, FaUser } from "react-icons/fa"
 
 const SearchBar = () => {
   return (
-    <section className="flex justify-center items-center p-3 border max-md:border-0 max-md:gap-2 gap-5 mb-5 rounded-sm">
+    <section className="flex justify-center bg-white rounded-lg items-center p-3 border max-md:border-0 max-md:gap-2 gap-5 mb-5 shadow-sm">
         <span className="text-lg max-md:text-md">
           <BsSearch />
         </span>
